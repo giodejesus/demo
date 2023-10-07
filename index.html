@@ -1,1 +1,89 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body-bg">
+    <div class="top-bar">
+      <button id="dark-button" onclick="goDark()">Change BG Color</button>
+    </div>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-content-box">
+          <h1>
+            The road is Bright!<br />
+            Come and enjoy the ride
+          </h1>
+        </div>
+        <div class="hero-form-box"></div>
+      </div>
+    </section>
+    <h2>Benefits</h2>
+    <section class="features">
+      <div class="container">
+        <img src="/img/lead.jpg" style="height: 200px; width: 300px" alt="" />
+        <div class="overlay">
+          <div class="overlay-content-box">
+            <h3>Leads</h3>
+
+            <p class="overlay-content">
+              We create for you a high-converting, responsive website platform
+              with strategic SEO and traffic analytics for ongoing improvements.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <img
+          src="/img/website.jfif"
+          style="height: 200px; width: 300px"
+          alt=""
+        />
+        <div class="overlay">
+          <div class="overlay-content-box">
+            <h3>Website</h3>
+
+            <p class="overlay-content">
+              With our state-of-the-art, market-proven solution, you will be at
+              the forefront of the industry while enjoying the piece of mind of
+              our 24hr support and monitoring.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <img src="/img/seo.jpg" style="height: 200px; width: 300px" alt="" />
+        <div class="overlay">
+          <div class="overlay-content-box">
+            <h3>SEO</h3>
+
+            <p class="overlay-content">
+              The vast majority of vehicle shoppers do their research on Google.
+              Our SEO experts will create targeted content so you can dominate
+              your market!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>Copyright &copy 2023 Giovanny De Jesus</footer>
+
+    <script>
+      function goDark() {
+        document.getElementById("body-bg").classList.toggle("dark");
+      }
+    </script>
+  </body>
+</html>
